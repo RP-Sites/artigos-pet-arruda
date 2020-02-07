@@ -1,5 +1,7 @@
 body{
      background-color: azure;
+     font-family: cursive;
+     color: darkslategray;
 }
 
 .center {
@@ -12,7 +14,7 @@ body{
 
 .title{
     text-align: center;
-    color: green;
+    color: #D4160C;
     font-size: 50px;
     font-family: cursive;
     font-style: bold;
@@ -21,7 +23,7 @@ body{
 
 .subtitle {
     text-align: center;
-    color: goldenrod;
+    color:#2D7F51;
     font-size: 30px;
     font-family: cursive;
     margin-bottom: -5px; 
@@ -32,5 +34,6 @@ body{
     color: darkslategray;
     font-family: verdana;
     font-size: 20px;
+    margin: 
 }
 
