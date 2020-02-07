@@ -1,5 +1,10 @@
 body{
      background-color: azure;
+     text-align: justify;
+    color: darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: goldenrod;
 }
 
 .center {
@@ -7,14 +12,12 @@ body{
         margin-left: auto;
         margin-right: auto;
         width: 50%;
-      }
-
-
+}
 .title{
     text-align: center;
     color: green;
     font-size: 50px;
-    font-family: cursive;
+    font-family: lobster;
     font-style: bold;
     margin-bottom: -5px; 
 }
@@ -25,12 +28,5 @@ body{
     font-size: 30px;
     font-family: cursive;
     margin-bottom: -5px; 
-}
-
-.texto {
-    text-align: justify;
-    color: darkslategray;
-    font-family: verdana;
-    font-size: 20px;
 }
 
