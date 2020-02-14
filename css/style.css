@@ -6,7 +6,6 @@ body{
     font-size: 20px;
     color: goldenrod;
 }
-
 .center {
         display: block;
         margin-left: auto;
@@ -15,19 +14,23 @@ body{
 }
 .title{
     text-align: center;
-    color: green;
+    color: darkred;
     font-size: 50px;
     font-family: lobster;
     font-style: bold;
-    margin-bottom: -5px; 
+    margin-bottom: -5px;
+    text-decoration: none;
+}
+.button{
+    border-color: black;
+    border-style: solid;
 }
 .efeito1::after{
     content: "|";
     margin-left: 5px;
     opacity: 1;
-    animation: pisca .7s infinite;
+    animation: pisca 0.7s infinite;
 }
-
 @keyframes pisca{
     0%, 100%{
         opacity: 1;
@@ -36,12 +39,33 @@ body{
         opacity: 0;
     }
 }
-
 .subtitle {
     text-align: center;
     color: goldenrod;
     font-size: 30px;
     font-family: cursive;
-    margin-bottom: -5px; 
+    margin-bottom: -5px;
 }
-
+li{
+    float: left;
+    color: white;
+    margin-left: 40px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255, 164, 19, 50%);
+}
+li a{
+    display: block;
+    color: #222;
+    padding: 4px 8px;
+    text-decoration: none;
+}
+a:hover{
+    color: chocolate;
+    transition: color 0.5s;
+}
